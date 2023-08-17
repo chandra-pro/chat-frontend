@@ -225,13 +225,14 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
               onKeyDown={sendMessage}
               id="first-name"
               isRequired
-              mt={3}
+              // mt={3}
+              style={{ position: "absolute", bottom: "100px" }}
             >
               {istyping ? (
                 <div>
                   <Lottie
                     options={defaultOptions}
-                    // height={50}
+                    height={50}
                     width={70}
                     style={{ marginBottom: 15, marginLeft: 0 }}
                   />
