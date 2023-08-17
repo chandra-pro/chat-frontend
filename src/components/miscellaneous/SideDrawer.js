@@ -128,6 +128,8 @@ function SideDrawer() {
         d="flex"
         justifyContent="space-between"
         alignItems="center"
+        flexDir={"row"}
+        style={{ display: "flex", flexDirection: "row" }}
         bg="white"
         w="100%"
         p="5px 10px 5px 10px"

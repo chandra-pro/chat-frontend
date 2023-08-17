@@ -225,8 +225,14 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
               onKeyDown={sendMessage}
               id="first-name"
               isRequired
-              // mt={3}
-              style={{ position: "absolute", bottom: "100px" }}
+              mt={8}
+              style={{
+                position: "absolute",
+                bottom: "4%",
+                justifyContent: "center",
+                alignItems: "center",
+                width: "65%",
+              }}
             >
               {istyping ? (
                 <div>
